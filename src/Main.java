@@ -16,6 +16,12 @@ public class Main {
 
         avl.order();
 
+        System.out.println(avl.find(15).getValue());
+
+        avl.changeValue(19, "cleber");
+        avl.order();
+        avl.getNodeQuantity();
+
 
     }
 }

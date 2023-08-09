@@ -9,5 +9,10 @@ public interface Avl_Tree_interface<T> {
     void order();
 
     void insert(Integer key, T value);
-    void remove(Integer key);
+
+    void changeValue(Integer key, T value);
+    void getNodeQuantity();
+    T remove(Integer key);
+
+    Node_interface<T> find(Integer key);
 }

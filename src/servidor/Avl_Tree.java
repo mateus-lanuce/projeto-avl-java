@@ -39,6 +39,55 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         this.root = this.insert(getRoot(), key, value);
     }
 
+
+    @Override
+    public Node_interface<T> find(Integer key) {
+        //percorrer os nós recursivamente partindo da raiz
+        return find(this.getRoot(), key);
+    }
+
+    public void changeValue(Integer key, T value) {
+        Node_interface<T> node = find(key);
+        node.setValue(value);
+    }
+
+    public void getNodeQuantity() {
+        int q = 1;
+        System.out.println(getNodeQuantity(this.getRoot(), q));
+    }
+
+    private int getNodeQuantity(Node_interface<T> node, int quantity) {
+        if(node != null) {
+            this.getNodeQuantity(node.getLeft(), quantity++);
+            this.getNodeQuantity(node.getRight(), quantity++);
+        }
+
+        return quantity;
+    }
+
+    private Node_interface<T> find(Node_interface<T> node, Integer key) {
+        if (node == null) {
+            System.out.println("Nó não encontrado");
+            return null;
+        }
+
+        if(node.compareTo(key) == 0) {
+            return node;
+        } else {
+            // pesquisar na subarvore esquerda
+            if (node.compareTo(key) > 0) {
+               return find(node.getLeft(), key);
+            } else if (node.compareTo(key) < 0){
+                //pesquisar na direita
+                return find(node.getRight(), key);
+            }
+        }
+
+        return node;
+    }
+
+
+
     private Node_interface<T> insert(Node_interface<T> node, Integer key, T value) {
         if(node == null) return new Node<T>(key, value);
 
@@ -48,15 +97,15 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         } else if(node.compareTo(key) < 0) {
             node.setRight(this.insert(node.getRight(), key, value));
         } else {
-            return node;
+            throw new RuntimeException("Chave duplicada!");
         }
 
+        return rebalance(node);
+    }
+
+    private Node_interface<T> rebalance(Node_interface<T> node) {
         // atualizar a altura do ancestral do nó inserido
-        node.setHeightNode(1 + this.highestValue(
-                    this.height(node.getLeft()),
-                    this.height(node.getRight())
-                )
-        );
+        updateHeight(node);
 
         // obter o fator de balanceamento
         int balanceFactor = this.getBalanceFactor(node);
@@ -83,8 +132,55 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
     }
 
     @Override
-    public void remove(Integer key) {
+    public T remove(Integer key) {
+        return remove(this.getRoot(), key).getValue();
+    }
 
+    private Node_interface<T> remove(Node_interface<T> node, Integer key) {
+        if (node == null) {
+            return node;
+        }
+
+        if(node.compareTo(key) > 0) {
+            node.setLeft(this.remove(node.getLeft(), key));
+        } else if(node.compareTo(key) < 0) {
+            node.setRight(this.remove(node.getRight(), key));
+        } else {
+
+            // node with only one child or no child
+            if (node.getLeft() == null || node.getRight() == null) {
+                node = (node.getLeft() == null) ? node.getRight() : node.getLeft();
+            }
+            else {
+
+                // node with two children: Get the inorder
+                // successor (smallest innode right subtree)
+                Node_interface<T> temp = mostLeftChild(node.getRight());
+
+                // Copy the inorder successor's data to this node
+                node.setKey(temp.getKey());
+
+                // Delete the inorder successor
+                node.setRight(remove(node.getRight(), temp.getKey()));
+            }
+        }
+
+        if (node != null) {
+            rebalance(node);
+        }
+
+        return node;
+    }
+
+    Node_interface<T> mostLeftChild(Node_interface<T> node)
+    {
+        Node_interface<T> current = node;
+
+        /* loop down to find the leftmost leaf */
+        while (current.getLeft() != null)
+            current = current.getLeft();
+
+        return current;
     }
 
     private Integer height(Node_interface<T> node) {
@@ -103,6 +199,14 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         return this.height(node.getLeft()) - this.height(node.getRight());
     }
 
+    void updateHeight(Node_interface<T> node) {
+        node.setHeightNode(1 + this.highestValue(
+                        this.height(node.getLeft()),
+                        this.height(node.getRight())
+                )
+        );
+    }
+
     private Node_interface<T> simpleLeftRotation(Node_interface<T> node) {
         Node_interface<T> nodeRight = node.getRight();
         Node_interface<T> nodeLeft = nodeRight.getLeft();
@@ -112,14 +216,8 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         nodeRight.setLeft(node);
         node.setRight(nodeLeft);
 
-        node.setHeightNode(1 + this.highestValue(
-                this.height(node.getLeft()),
-                this.height(node.getRight())
-        ));
-        nodeRight.setHeightNode(1 + this.highestValue(
-                this.height(nodeRight.getLeft()),
-                this.height((nodeRight.getRight()))
-        ));
+        updateHeight(node);
+        updateHeight(nodeRight);
 
         return nodeRight;
 
@@ -133,10 +231,10 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         // executa rotação
 
         left.setRight(node);
-        node.setLeft(right);;
+        node.setLeft(right);
 
-        node.setHeightNode( 1 + this.highestValue(height(node.getLeft()), height(node.getRight())));
-        left.setHeightNode( 1 + this.highestValue(height(left.getLeft()), height(left.getRight())));
+        updateHeight(node);
+        updateHeight(left);
 
         return left;
     }
