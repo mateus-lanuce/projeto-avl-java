@@ -19,7 +19,9 @@ public class Main {
         System.out.println(avl.find(15).getValue());
 
         avl.changeValue(19, "cleber");
+        avl.remove(18);
         avl.order();
+
         System.out.println(avl.getNodeQuantity());
 
 
