@@ -51,18 +51,19 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         node.setValue(value);
     }
 
-    public void getNodeQuantity() {
-        int q = 1;
-        System.out.println(getNodeQuantity(this.getRoot(), q));
+    /**
+     * Função que conta e retorna a quantidade de nós em uma árvore binária
+     */
+    public int getNodeQuantity() {
+        return quantidade_nos(this.getRoot());
     }
 
-    private int getNodeQuantity(Node_interface<T> node, int quantity) {
-        if(node != null) {
-            this.getNodeQuantity(node.getLeft(), quantity++);
-            this.getNodeQuantity(node.getRight(), quantity++);
-        }
 
-        return quantity;
+    private int quantidade_nos(Node_interface<T> root){
+        if(root == null)
+            return 0;
+        else
+            return 1 + quantidade_nos(root.getLeft()) + quantidade_nos(root.getRight());
     }
 
     private Node_interface<T> find(Node_interface<T> node, Integer key) {

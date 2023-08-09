@@ -20,7 +20,7 @@ public class Main {
 
         avl.changeValue(19, "cleber");
         avl.order();
-        avl.getNodeQuantity();
+        System.out.println(avl.getNodeQuantity());
 
 
     }

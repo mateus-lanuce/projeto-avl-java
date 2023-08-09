@@ -11,7 +11,7 @@ public interface Avl_Tree_interface<T> {
     void insert(Integer key, T value);
 
     void changeValue(Integer key, T value);
-    void getNodeQuantity();
+    int getNodeQuantity();
     T remove(Integer key);
 
     Node_interface<T> find(Integer key);
