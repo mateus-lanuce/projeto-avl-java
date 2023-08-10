@@ -9,19 +9,7 @@ public class Veiculo extends Condutor{
 
     String modelo = null;
 
-    Date data_fabricacao = null;
-
-    String codigo_veiculo = null;
-
-    public Veiculo(String placa, String renavam, String modelo, Date data_fabricacao, String cpf, String condutor) {
-        this.setPlaca(placa);
-        this.setModelo(modelo);
-        this.setRenavam(renavam);
-        this.setData_fabricacao(data_fabricacao);
-        this.setCpf(cpf);
-        this.setNome(condutor);
-        this.setCodigo_veiculo();
-    }
+    String data_fabricacao = null;
 
     public void setPlaca(String placa) {
         this.placa = placa;
@@ -47,19 +35,11 @@ public class Veiculo extends Condutor{
         return this.modelo;
     }
 
-    public void setData_fabricacao(Date data) {
+    public void setData_fabricacao(String data) {
         this.data_fabricacao = data;
     }
 
-    public Date getData_fabricacao() {
+    public String getData_fabricacao() {
         return this.data_fabricacao;
-    }
-
-    public void setCodigo_veiculo() {
-        this.codigo_veiculo = this.renavam + '-' + this.placa;
-    }
-
-    public String getCodigo_veiculo() {
-        return this.codigo_veiculo;
     }
 }

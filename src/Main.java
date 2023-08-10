@@ -1,3 +1,4 @@
+import Cliente.Cliente;
 import interfaces.Avl_Tree_interface;
 import servidor.Avl_Tree;
 
@@ -19,11 +20,15 @@ public class Main {
         System.out.println(avl.find(15).getValue());
 
         avl.changeValue(19, "cleber");
+        System.out.println("remover:");
         avl.remove(18);
         avl.order();
 
         System.out.println(avl.getNodeQuantity());
 
 
+        Cliente cliente = new Cliente();
+
+        cliente.cadastrarVeiculo();
     }
 }

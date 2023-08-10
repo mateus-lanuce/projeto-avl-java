@@ -17,6 +17,11 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
     }
 
     @Override
+    public int getHeightTree() {
+        return this.root.getHeightNode();
+    }
+
+    @Override
     public void setRoot(Node_interface<T> root) {
         this.root = root;
     }
@@ -46,9 +51,16 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         return find(this.getRoot(), key);
     }
 
-    public void changeValue(Integer key, T value) {
+    public boolean changeValue(Integer key, T value) {
         Node_interface<T> node = find(key);
-        node.setValue(value);
+
+        if (node != null) {
+            node.setValue(value);
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
     /**
@@ -68,7 +80,6 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
 
     private Node_interface<T> find(Node_interface<T> node, Integer key) {
         if (node == null) {
-            System.out.println("Nó não encontrado");
             return null;
         }
 
@@ -104,63 +115,99 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         return rebalance(node);
     }
 
-    private Node_interface<T> rebalance(Node_interface<T> z) {
-        // atualizar a altura do ancestral do nó inserido
-        updateHeight(z);
+    private Node_interface<T> rebalance(Node_interface<T> node) {
+        int balanceFactor = getBalanceFactor(node);
 
-        // obter o fator de balanceamento
-        int fBalance = getBalanceFactor(z);
-
-        if (fBalance > 1) {
-
-            if(height(z.getRight().getRight()) > height(z.getRight().getLeft())) {
-                z = simpleLeftRotation(z);
+        // Left-heavy?
+        if (balanceFactor < -1) {
+            if (getBalanceFactor(node.getLeft()) <= 0) {
+                // Rotate right
+                node = simpleRightRotation(node);
             } else {
-                z.setRight(simpleRightRotation(z.getRight()));
-                z = simpleLeftRotation(z);
+                // Rotate left-right
+                node.setLeft(simpleLeftRotation(node.getLeft()));
+                node = simpleRightRotation(node);
             }
-
-        } else if(fBalance < 1) {
-
-            if(height(z.getLeft().getLeft()) > height(z.getLeft().getRight())) {
-                z = simpleRightRotation(z);
-            } else {
-                z.setLeft(simpleLeftRotation(z.getLeft()));
-                z = simpleRightRotation(z);
-            }
-
         }
 
-        return z;
+        // Right-heavy?
+        if (balanceFactor > 1) {
+            if (getBalanceFactor(node.getRight()) >= 0) {
+                // Rotate left
+                node = simpleLeftRotation(node);
+            } else {
+                // Rotate right-left
+                node.setRight(simpleRightRotation(node.getRight()));
+                node = simpleLeftRotation(node);
+            }
+        }
 
+        return node;
     }
 
     @Override
     public T remove(Integer key) {
-        return remove(this.getRoot(), key).getValue();
+
+        Node_interface<T> temp = remove(this.getRoot(), key);
+
+        return temp == null ? null : temp.getValue();
     }
 
     private Node_interface<T> remove(Node_interface<T> node, Integer key) {
+        node = deleteNode(node, key);
+
+        // Node is null if the tree doesn't contain the key
         if (node == null) {
-            return node;
-        } else if (node.compareTo(key) > 0) {
+            return null;
+        }
+
+        updateHeight(node);
+
+        return rebalance(node);
+    }
+
+    private Node_interface<T> deleteNode(Node_interface<T> node, int key) {
+        // No node at current position --> go up the recursion
+        if (node == null) {
+            return null;
+        }
+
+        // Traverse the tree to the left or right depending on the key
+        if (node.compareTo(key) > 0) {
             node.setLeft(remove(node.getLeft(), key));
         } else if (node.compareTo(key) < 0) {
             node.setRight(remove(node.getRight(), key));
-        } else {
-            if (node.getLeft() == null || node.getRight() == null) {
-                node = (node.getLeft() == null) ? node.getRight() : node.getLeft();
-            } else {
-                Node_interface<T> mostLeftChild = mostLeftChild(node.getRight());
-                node.setKey(mostLeftChild.getKey());
-                node.setValue(mostLeftChild.getValue());
-                node.setRight(remove(node.getRight(), node.getKey()));
-            }
+        } else if (node.getLeft() == null && node.getRight() == null) {
+            // At this point, "node" is the node to be deleted
+            // Node has no children --> just delete it
+            node = null;
         }
-        if (node != null) {
-            node = rebalance(node);
+
+        // Node has only one child --> replace node by its single child
+        else if (node.getLeft() == null) {
+            node = node.getRight();
+        } else if (node.getRight() == null) {
+            node = node.getLeft();
         }
+
+        // Node has two children
+        else {
+            deleteNodeWithTwoChildren(node);
+        }
+
         return node;
+    }
+
+    private void deleteNodeWithTwoChildren(Node_interface<T> node) {
+        // Find minimum node of right subtree ("inorder successor" of current node)
+        Node_interface<T> inOrderSuccessor = mostLeftChild(node.getRight());
+
+        // Copy inorder successor's data to current node
+        node.setValue(inOrderSuccessor.getValue());
+        node.setKey(inOrderSuccessor.getKey());
+
+        // Delete inorder successor recursively
+        node.setRight(remove(node.getRight(), inOrderSuccessor.getKey()));
     }
 
     Node_interface<T> mostLeftChild(Node_interface<T> node)
@@ -175,64 +222,44 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
     }
 
     private Integer height(Node_interface<T> node) {
-        if (node == null) return -1;
-
-        return node.getHeightNode();
-    }
-
-    private Integer highestValue(Integer a, Integer b) {
-        return (a > b) ? a : b;
+        return node == null ? -1 : node.getHeightNode();
     }
 
     private Integer getBalanceFactor(Node_interface<T> node) {
-        if(node == null) return 0;
-
-        return this.height(node.getRight()) - this.height(node.getLeft());
+        return height(node.getRight()) - height(node.getLeft());
     }
 
     void updateHeight(Node_interface<T> node) {
-        node.setHeightNode(1 + this.highestValue(
-                        this.height(node.getLeft()),
-                        this.height(node.getRight())
-                )
-        );
+        int leftChildHeight = height(node.getLeft());
+        int rightChildHeight = height(node.getRight());
+        node.setHeightNode(Math.max(leftChildHeight, rightChildHeight) + 1);
     }
 
-    private Node_interface<T> simpleLeftRotation(Node_interface<T> y) {
-        Node_interface<T> x = y.getRight();
-        Node_interface<T> z = x.getLeft();
+    private Node_interface<T> simpleLeftRotation(Node_interface<T> node) {
+        Node_interface<T> rightChild = node.getRight();
 
-        // executar a rotação
+        node.setRight(rightChild.getLeft());
+        rightChild.setLeft(node);
 
-        x.setLeft(y);
-        y.setRight(z);
+        updateHeight(node);
+        updateHeight(rightChild);
 
-        updateHeight(y);
-        updateHeight(x);
-
-        return x;
+        return rightChild;
 
     }
 
-    private Node_interface<T> simpleRightRotation(Node_interface<T> y) {
+    private Node_interface<T> simpleRightRotation(Node_interface<T> node) {
 
-        Node_interface<T> x = y.getLeft();
-        Node_interface<T> z = x.getRight();
+        Node_interface<T> leftChild = node.getLeft();
 
-        // executa rotação
+        node.setLeft(leftChild.getRight());
+        leftChild.setRight(node);
 
-        x.setRight(y);
-        y.setLeft(z);
+        updateHeight(node);
+        updateHeight(leftChild);
 
-        updateHeight(y);
-        updateHeight(x);
-
-        return x;
+        return leftChild;
 
     }
-
-    /*
-     * Implementar a remoção de acordo com o código da prática 4
-     */
 
 }

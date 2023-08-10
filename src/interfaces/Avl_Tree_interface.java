@@ -10,8 +10,10 @@ public interface Avl_Tree_interface<T> {
 
     void insert(Integer key, T value);
 
-    void changeValue(Integer key, T value);
+    boolean changeValue(Integer key, T value);
     int getNodeQuantity();
+
+    int getHeightTree();
     T remove(Integer key);
 
     Node_interface<T> find(Integer key);

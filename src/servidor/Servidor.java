@@ -2,6 +2,7 @@ package servidor;
 
 import common.Veiculo;
 import interfaces.Avl_Tree_interface;
+import interfaces.Node_interface;
 
 public class Servidor {
 
@@ -9,17 +10,31 @@ public class Servidor {
 
     public void insertVeiculo(Veiculo veiculo) {
         veiculo_tree.insert(veiculo.getRenavam().hashCode(), veiculo);
-
     }
 
-    public Veiculo removeVeiculo(int key) {
-        return veiculo_tree.remove(key);
+    /**
+     *
+     * @param renavam
+     * @return Veiculo || null
+     */
+    public Veiculo find(String renavam) {
+        return veiculo_tree.find(renavam.hashCode()).getValue();
     }
 
-    public void changeVeiculo(int key, Veiculo value) {
-        veiculo_tree.changeValue(key, value);
+    public Veiculo removeVeiculo(String renavam) {
+        return veiculo_tree.remove(renavam.hashCode());
     }
 
+    public boolean changeVeiculo(String renavam, Veiculo value) {
+        return veiculo_tree.changeValue(renavam.hashCode(), value);
+    }
 
+    public int getQuantidadeVeiculo() {
+        return veiculo_tree.getNodeQuantity();
+    }
+
+    public Node_interface<Veiculo> sendRoot() {
+        return veiculo_tree.getRoot();
+    }
 
 }

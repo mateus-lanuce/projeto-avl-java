@@ -12,6 +12,6 @@ public interface Veiculo_interface extends Condutor_interface {
 
    String modelo = null;
 
-   Date data_fabricacao = null;
+   String data_fabricacao = null;
 
 }
