@@ -34,7 +34,7 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
     private void order(Node_interface<T> node) {
         if(node != null) {
             this.order(node.getLeft());
-            System.out.println(node.getKey() + ": " + node.getValue());
+
             this.order(node.getRight());
         }
     }

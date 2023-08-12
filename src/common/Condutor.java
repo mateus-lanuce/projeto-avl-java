@@ -15,7 +15,7 @@ public class Condutor {
     }
 
     public void setCpf(String cpf) {
-
+        this.cpf = cpf;
     }
 
     public String getCpf() {

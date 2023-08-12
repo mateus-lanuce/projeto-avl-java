@@ -17,6 +17,10 @@ public class Node<T> implements Node_interface<T> {
         this.setRight(null);
     }
 
+    public Node(Node_interface<T> node) {
+
+    }
+
     @Override
     public int getHeightNode() {
         return this.HeightNode;

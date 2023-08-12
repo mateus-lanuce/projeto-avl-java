@@ -2,6 +2,10 @@ package Cliente;
 
 import Protocolo.Protocolo;
 import common.Veiculo;
+import interfaces.Avl_Tree_interface;
+import interfaces.Node_interface;
+import servidor.Avl_Tree;
+import servidor.Node;
 
 import java.io.IOException;
 import java.util.Date;
@@ -87,6 +91,59 @@ public class Cliente {
 
     }
 
+    public void alterarDados() {
+
+        //buscar
+        clearConsole();
+
+        String placa, renavam;
+
+        System.out.println("Busca de veiculo por placa e renavam");
+
+        //leitura
+        System.out.print("Placa: ");
+        placa = scanner.next();
+        System.out.print("Renavam: ");
+        renavam = scanner.next();
+
+        Veiculo temp = protocolo.receberMensagem(renavam, false);
+
+        if (temp == null) {
+            System.out.println("Veiculo não encontrado!");
+        } else {
+            listDados(temp);
+        }
+
+        //alterar
+
+        System.out.println("Digite os novos dados!");
+        System.out.println("Obs: o renavam não pode ser alterado");
+
+        System.out.print("Dados do veiculo:\nPlaca: ");
+        temp.setPlaca(scanner.next());
+        System.out.print("Modelo do veiculo: ");
+        temp.setModelo(scanner.next());
+        System.out.print("Data de Fabricação do veiculo (00/00/2003): ");
+        temp.setData_fabricacao(scanner.next());
+
+        //valores do condutos
+        System.out.println("\nDados do Condutor");
+        System.out.print("CPF: ");
+        temp.setCpf(scanner.next());
+        System.out.print("Nome do condutor: ");
+        temp.setNome(scanner.next());
+
+        if(protocolo.enviarMensagem(temp.getRenavam(), temp)) {
+            System.out.println("Veiculo alterado com sucesso");
+            listDados(temp);
+        } else {
+            System.out.println("não foi possivel alterar o veiculo");
+        }
+
+
+
+    }
+
     private void listDados(Veiculo v) {
         System.out.println("\n-------Dados do veiculo-------");
         System.out.println("Placa: " + v.getPlaca());
@@ -97,6 +154,26 @@ public class Cliente {
         System.out.println("-------Dados do Condutor-------");
         System.out.println("Nome do Condutor: " + v.getNome());
         System.out.println("CPF: " + v.getCpf());
+    }
+
+    public void acessarQuantidade() {
+        System.out.print("A quantidade de veiculos cadastrados é: ");
+        System.out.println(protocolo.receberMensagem());
+    }
+
+    public void listarVeiculos() {
+
+        Node_interface<Veiculo> raiz = protocolo.receberMesagem();
+
+        order(raiz);
+    }
+
+    private void order(Node_interface<Veiculo> node) {
+        if(node != null) {
+            this.order(node.getLeft());
+            listDados(node.getValue());
+            this.order(node.getRight());
+        }
     }
 
     public final static void clearConsole()
