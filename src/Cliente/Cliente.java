@@ -16,6 +16,10 @@ public class Cliente {
     private Protocolo protocolo = new Protocolo();
     private Scanner scanner = new Scanner(System.in);
 
+    public void cadastrarVeiculo(Veiculo v) {
+        protocolo.enviarMensagem(v);
+    }
+
     public void cadastrarVeiculo() {
         clearConsole();
 
@@ -70,6 +74,11 @@ public class Cliente {
 
     }
 
+    private Veiculo buscarVeiculo(String renavam) {
+
+        return protocolo.receberMensagem(renavam, false);
+    }
+
     public void removerVeiculo() {
 
         System.out.println("Remover Veiculo - está operação não pode ser desfeita!");
@@ -79,13 +88,14 @@ public class Cliente {
         System.out.print("Digite o Renavam do veiculo a ser excluido: ");
         renavam = scanner.next();
 
-        Veiculo temp = protocolo.receberMensagem(renavam, true);
+        Veiculo exibTemp = buscarVeiculo(renavam);
+        protocolo.receberMensagem(renavam, true);
 
-        if (temp == null) {
+        if (exibTemp == null) {
             System.out.println("Veiculo não encontrado!");
         } else {
             System.out.println("O Veiculo: ");
-            listDados(temp);
+            listDados(exibTemp);
             System.out.println("Foi removido com sucesso");
         }
 

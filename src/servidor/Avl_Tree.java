@@ -3,9 +3,16 @@ package servidor;
 import interfaces.Avl_Tree_interface;
 import interfaces.Node_interface;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
 public class Avl_Tree<T> implements Avl_Tree_interface<T> {
 
     Node_interface<T> root;
+
+    boolean createTextFile = true;
 
     public Avl_Tree() {
         this.setRoot(null);
@@ -42,6 +49,7 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
     @Override
     public void insert(Integer key, T value) {
         this.root = this.insert(getRoot(), key, value);
+        writeLog("Inserção - altura da arvore: " + getHeightTree());
     }
 
 
@@ -112,6 +120,8 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
             throw new RuntimeException("Chave duplicada!");
         }
 
+        updateHeight(node);
+
         return rebalance(node);
     }
 
@@ -149,6 +159,8 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
     public T remove(Integer key) {
 
         Node_interface<T> temp = remove(this.getRoot(), key);
+
+        writeLog("Remoção - altura da arvore: " + getHeightTree());
 
         return temp == null ? null : temp.getValue();
     }
@@ -244,6 +256,8 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         updateHeight(node);
         updateHeight(rightChild);
 
+        writeLog("ouve uma rotação simples a esquerda");
+
         return rightChild;
 
     }
@@ -258,8 +272,36 @@ public class Avl_Tree<T> implements Avl_Tree_interface<T> {
         updateHeight(node);
         updateHeight(leftChild);
 
+        writeLog("Ouve uma rotação simples a direita");
+
         return leftChild;
 
+    }
+
+    private void writeLog(String txt) {
+        try {
+            File arquivo = new File("output.txt");
+            if (!arquivo.exists()) {
+                //cria um arquivo (vazio)
+                arquivo.createNewFile();
+            } else if (createTextFile) {
+                //ja existe um arquivo de log antigo então deve ser apagado
+                arquivo.delete();
+                arquivo.createNewFile();
+                createTextFile = false;
+            }
+
+            //escreve no arquivo
+            FileWriter fw = new FileWriter(arquivo, true);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(txt);
+            bw.newLine();
+            bw.close();
+            fw.close();
+        }
+        catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 
 }

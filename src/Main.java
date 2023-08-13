@@ -1,17 +1,56 @@
 import Cliente.Cliente;
+import common.Veiculo;
 import interfaces.Avl_Tree_interface;
 import servidor.Avl_Tree;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
 
         Cliente cliente = new Cliente();
 
-        cliente.cadastrarVeiculo();
+        //ler arquivo com 50 veiculos para pre cadastro
+        String path = "C:\\Users\\mateu\\IdeaProjects\\projeto-avl-java\\src\\carros_pre.txt";
+
+        BufferedReader buffRead = new BufferedReader(new FileReader(path));
+        String marca = "";
+        String modelo = "";
+        String data_fabricacao = "";
+        String renavam = "";
+        String placa = "";
+        while (true) {
+            marca = buffRead.readLine();
+            if (marca != null) {
+                Veiculo temp = new Veiculo();
+
+                //marca + modelo
+                modelo =  buffRead.readLine();
+                temp.setModelo(marca + " " + modelo);
+
+                data_fabricacao = buffRead.readLine();
+                temp.setData_fabricacao(data_fabricacao);
+
+                renavam = buffRead.readLine();
+                temp.setRenavam(renavam);
+
+                placa = buffRead.readLine();
+                temp.setPlaca(placa);
+
+                temp.setCpf("000.000.000-00");
+                temp.setNome("veiculo pre cadastrado");
+
+                cliente.cadastrarVeiculo(temp);
+            } else
+                break;
+        }
+        buffRead.close();
 
         Scanner s = new Scanner(System.in);
 
@@ -26,6 +65,7 @@ public class Main {
             System.out.println("5 - Acessar a quantidade de veiculos cadastrados");
             System.out.println("6 - Ver detalhes de todos os veiculos");
             System.out.println("7 - Sair");
+            System.out.print("Função: ");
             int select = s.nextInt();
 
             switch (select) {
