@@ -8,8 +8,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
 
     public static void main(String[] args) throws IOException {
@@ -17,7 +15,7 @@ public class Main {
         Cliente cliente = new Cliente();
 
         //ler arquivo com 50 veiculos para pre cadastro
-        String path = "C:\\Users\\mateu\\IdeaProjects\\projeto-avl-java\\src\\carros_pre.txt";
+        String path = "src/carros_pre.txt";
 
         BufferedReader buffRead = new BufferedReader(new FileReader(path));
         String marca = "";
@@ -104,6 +102,8 @@ public class Main {
             }
 
         }
+
+        s.close();
 
     }
 }
