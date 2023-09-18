@@ -173,17 +173,16 @@ public class Cliente {
 
     public void listarVeiculos() {
 
-        Node_interface<Veiculo> raiz = protocolo.receberMesagem();
+        Object[] temp = protocolo.receberMesagem();
 
-        order(raiz);
-    }
-
-    private void order(Node_interface<Veiculo> node) {
-        if(node != null) {
-            this.order(node.getLeft());
-            listDados(node.getValue());
-            this.order(node.getRight());
+        if (temp == null) {
+            System.out.println("Não há veiculos cadastrados!");
+        } else {
+            for (Object o : temp) {
+                listDados((Veiculo) o);
+            }
         }
+
     }
 
     public final static void clearConsole()

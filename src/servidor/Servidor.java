@@ -6,10 +6,10 @@ import interfaces.Node_interface;
 
 public class Servidor {
 
-    Avl_Tree_interface<Veiculo> veiculo_tree = new Avl_Tree<>();
+    HashTable<String, Veiculo> veiculo_tree = new HashTable<>(16);
 
     public void insertVeiculo(Veiculo veiculo) {
-        veiculo_tree.insert(veiculo.getRenavam().hashCode(), veiculo);
+        veiculo_tree.put(veiculo.getRenavam(), veiculo);
     }
 
     /**
@@ -18,23 +18,30 @@ public class Servidor {
      * @return Veiculo || null
      */
     public Veiculo find(String renavam) {
-        return veiculo_tree.find(renavam.hashCode()).getValue();
+        return veiculo_tree.get(renavam);
     }
 
     public Veiculo removeVeiculo(String renavam) {
-        return veiculo_tree.remove(renavam.hashCode());
+        return veiculo_tree.remove(renavam);
     }
 
     public boolean changeVeiculo(String renavam, Veiculo value) {
-        return veiculo_tree.changeValue(renavam.hashCode(), value);
+
+        if (veiculo_tree.get(renavam) == null) {
+            return false;
+        } else {
+            veiculo_tree.put(renavam, value);
+            return true;
+        }
+
     }
 
     public int getQuantidadeVeiculo() {
-        return veiculo_tree.getNodeQuantity();
+        return veiculo_tree.getCount();
     }
 
-    public Node_interface<Veiculo> sendRoot() {
-        return veiculo_tree.getRoot();
+    public Object[] sendRoot() {
+        return veiculo_tree.values();
     }
 
 }

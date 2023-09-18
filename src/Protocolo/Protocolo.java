@@ -52,7 +52,7 @@ public class Protocolo {
      * pegar a raiz da arvoré
      * @return
      */
-    public Node_interface<Veiculo> receberMesagem() {
+    public Object[] receberMesagem() {
         return servidor.sendRoot();
     }
 
