@@ -2,13 +2,7 @@ package Cliente;
 
 import Protocolo.Protocolo;
 import common.Veiculo;
-import interfaces.Avl_Tree_interface;
-import interfaces.Node_interface;
-import servidor.Avl_Tree;
-import servidor.Node;
 
-import java.io.IOException;
-import java.util.Date;
 import java.util.Scanner;
 
 public class Cliente {

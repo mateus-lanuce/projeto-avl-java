@@ -1,14 +1,20 @@
 package servidor;
 
 import common.Veiculo;
-import interfaces.Avl_Tree_interface;
-import interfaces.Node_interface;
+import common.huffman.Huffman;
+import common.huffman.HuffmanData;
 
 public class Servidor {
 
-    HashTable<String, Veiculo> veiculo_tree = new HashTable<>(16);
+    HashTable<String, Veiculo> veiculo_tree = new HashTable<>(5);
 
-    public void insertVeiculo(Veiculo veiculo) {
+    public void insertVeiculo(HuffmanData veiculoCompress) {
+
+        Huffman descompress = new Huffman(veiculoCompress.getEncodedString(), veiculoCompress.getFrequencies());
+
+        Veiculo veiculo = new Veiculo();
+        veiculo.transformFromString(descompress.getDecodedString());
+
         veiculo_tree.put(veiculo.getRenavam(), veiculo);
     }
 
@@ -17,20 +23,53 @@ public class Servidor {
      * @param renavam
      * @return Veiculo || null
      */
-    public Veiculo find(String renavam) {
-        return veiculo_tree.get(renavam);
+    public HuffmanData find(HuffmanData renavam) {
+
+        Huffman descompress = new Huffman(renavam.getEncodedString(), renavam.getFrequencies());
+
+        String renavamString = descompress.getDecodedString();
+
+        Veiculo veiculo = veiculo_tree.get(renavamString);
+
+        if (veiculo == null) {
+            return null;
+        } else {
+            Huffman veiculoCompress = new Huffman(veiculo.toString());
+            return new HuffmanData(veiculoCompress.getEncodedString(), veiculoCompress.getFreq());
+        }
     }
 
-    public Veiculo removeVeiculo(String renavam) {
-        return veiculo_tree.remove(renavam);
+    public HuffmanData removeVeiculo(HuffmanData renavam) {
+
+        Huffman descompress = new Huffman(renavam.getEncodedString(), renavam.getFrequencies());
+
+        String renavamString = descompress.getDecodedString();
+
+        Veiculo veiculoRemovido = veiculo_tree.remove(renavamString);
+
+        // comprimir a mensagem usando huffman
+        Huffman veiculoCompress = new Huffman(veiculoRemovido.toString());
+
+        // enviar o objeto huffmanData que contem a string comprimida e a frequencia de cada caracter
+
+        return new HuffmanData(veiculoCompress.getEncodedString(), veiculoCompress.getFreq());
     }
 
-    public boolean changeVeiculo(String renavam, Veiculo value) {
+    public boolean changeVeiculo(HuffmanData renavam, HuffmanData veiculoCompress) {
 
-        if (veiculo_tree.get(renavam) == null) {
+        Huffman descompressRenavam = new Huffman(renavam.getEncodedString(), renavam.getFrequencies());
+
+        String renavamString = descompressRenavam.getDecodedString();
+
+        Huffman descompress = new Huffman(veiculoCompress.getEncodedString(), veiculoCompress.getFrequencies());
+
+        Veiculo value = new Veiculo();
+        value.transformFromString(descompress.getDecodedString());
+
+        if (veiculo_tree.get(renavamString) == null) {
             return false;
         } else {
-            veiculo_tree.put(renavam, value);
+            veiculo_tree.put(renavamString, value);
             return true;
         }
 

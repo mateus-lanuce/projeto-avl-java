@@ -34,12 +34,25 @@ public class HashTable<K, V> {
 
         this.rehashIfNeeded();
 
+        // Atualize o fator de carga sempre que um novo elemento for adicionado
+        writeLoadFactor();
+
         return oldValue;
     }
 
     private int bucketIndexFor(K key) {
-        return Math.abs(key.hashCode() % this.buckets.size());
+        int hashCode = key.hashCode();
+        int index = Math.abs(hashCode % this.buckets.size());
+
+        int i = 1;
+        while (this.buckets.get(index) != null) {
+            index = (index + i * i) % this.buckets.size();
+            i++;
+        }
+
+        return index;
     }
+
 
     private Node_hash<K, V> findOrCreateEntry(K key) {
         var bucketIndex = this.bucketIndexFor(key);
@@ -67,13 +80,20 @@ public class HashTable<K, V> {
     }
 
     private void rehashIfNeeded() {
-        if (this.count > 0 && ((this.buckets.size() / (float) this.count) < loadFactor)) {
+        // Verifica se a taxa de carga excede o limite e é necessário rehash
+        if (this.count > 0 && ((float) this.count / this.buckets.size()) > loadFactor) {
+            // Salva os buckets antigos
             var oldBuckets = this.buckets;
+            // Zera a contagem de elementos
             this.count = 0;
-            var capacity = oldBuckets.size() * 2;
-            this.buckets = new ArrayList<>(capacity);
-            fill(this.buckets, capacity);
+            // Calcula o novo tamanho da tabela como o próximo número primo após a capacidade anterior
+            int newCapacity = getNextPrime(oldBuckets.size());
+            // Cria uma nova lista de buckets com o novo tamanho
+            this.buckets = new ArrayList<>(newCapacity);
+            // Preenche a nova lista de buckets com null
+            fill(this.buckets, newCapacity);
 
+            // Reinsere os elementos da tabela antiga na nova tabela
             for (var bucket : oldBuckets) {
                 if (bucket != null) {
                     for (var entry : bucket) {
@@ -82,9 +102,41 @@ public class HashTable<K, V> {
                 }
             }
 
-            writeLog("Rehash feito novo tamanho: " + capacity);
+            // Registra a operação de rehash no log
+            writeLog("Rehash feito novo tamanho: " + newCapacity);
         }
     }
+
+    private int getNextPrime(int n) {
+        // Encontra o próximo número primo após n
+        for (int i = n + 1; true; i++) {
+            if (isPrime(i)) {
+                return i;
+            }
+        }
+    }
+
+    private boolean isPrime(int n) {
+        if (n <= 1) {
+            return false; // Números menores ou iguais a 1 não são primos
+        }
+        if (n <= 3) {
+            return true; // 2 e 3 são primos
+        }
+        if (n % 2 == 0 || n % 3 == 0) {
+            return false; // Divisível por 2 ou 3 não é primo
+        }
+        // Verifica se n é divisível por números da forma 6k ± 1
+        for (int i = 5; i * i <= n; i += 6) {
+            if (n % i == 0 || n % (i + 2) == 0) {
+                return false; // Não é primo se divisível por i ou i + 2
+            }
+        }
+        return true; // Se não foi divisível por nenhum dos casos acima, é primo
+    }
+
+
+
 
     static <E> void fill(List<E> items, int count) {
         for (int x = 0; x < count; x++) {
@@ -149,6 +201,7 @@ public class HashTable<K, V> {
                 it.remove();
                 this.count--;
                 writeLog("Remoção - Valor Removido com chave: " + next .getKey());
+                writeLoadFactor();
                 return next.getValue();
             }
         }
@@ -173,6 +226,11 @@ public class HashTable<K, V> {
             }
         }
         return values;
+    }
+
+    private void writeLoadFactor() {
+        float currentLoadFactor = (float) this.count / this.buckets.size();
+        writeLog("Fator de Carga: " + currentLoadFactor);
     }
 
     private void writeLog(String txt) {
