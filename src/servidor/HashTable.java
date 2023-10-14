@@ -44,14 +44,14 @@ public class HashTable<K, V> {
         int hashCode = key.hashCode();
         int index = Math.abs(hashCode % this.buckets.size());
 
-        int i = 1;
         while (this.buckets.get(index) != null) {
-            index = (index + i * i) % this.buckets.size();
-            i++;
+            index = (index + 1) % this.buckets.size();
         }
 
         return index;
     }
+
+
 
 
     private Node_hash<K, V> findOrCreateEntry(K key) {
@@ -166,8 +166,33 @@ public class HashTable<K, V> {
     }
 
     private List<Node_hash<K, V>> findBucket(K key) {
-        return this.buckets.get(this.bucketIndexFor(key));
+        int hashCode = key.hashCode();
+        int index = Math.abs(hashCode % this.buckets.size());
+        int initialIndex = index;
+
+        while (true) {
+            List<Node_hash<K, V>> bucket = this.buckets.get(index);
+            if (bucket != null) {
+                for (var entry : bucket) {
+                    if (key.equals(entry.getKey())) {
+                        return bucket; // Encontrou a chave neste bucket
+                    }
+                }
+            }
+
+            // Calcula o próximo índice usando a sondagem linear
+            index = (index + 1) % this.buckets.size();
+
+            // Se retornou ao índice inicial, encerra a busca
+            if (index == initialIndex) {
+                break;
+            }
+        }
+
+        // Se a chave não foi encontrada em nenhum bucket, retorne null
+        return null;
     }
+
 
     public V get(K key) {
         throwIfNull(key);
