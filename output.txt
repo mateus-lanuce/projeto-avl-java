@@ -1,0 +1,1467 @@
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.2
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.4
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.6
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 94920688061
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.14285715
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.2857143
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.42857143
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.5714286
+Rehash feito novo tamanho: 7
+Fator de Carga: 0.5714286
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.71428573
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 99377619670
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.09090909
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.18181819
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.27272728
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.36363637
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.45454547
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.54545456
+Rehash feito novo tamanho: 11
+Fator de Carga: 0.54545456
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.6363636
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.72727275
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 49057996418
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.07692308
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.15384616
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.23076923
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.30769232
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.3846154
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.46153846
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.53846157
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.61538464
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.6923077
+Rehash feito novo tamanho: 13
+Fator de Carga: 0.6923077
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 78137159737
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.05882353
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.11764706
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.1764706
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.23529412
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.29411766
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.3529412
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.4117647
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.47058824
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.5294118
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.5882353
+Rehash feito novo tamanho: 17
+Fator de Carga: 0.5882353
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.64705884
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.7058824
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 17490275529
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.05263158
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.10526316
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.15789473
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.21052632
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.2631579
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.31578946
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.36842105
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.42105263
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.47368422
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.5263158
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.57894737
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.6315789
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.68421054
+Rehash feito novo tamanho: 19
+Fator de Carga: 0.68421054
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.7368421
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 41273043142
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.04347826
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.08695652
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.13043478
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.17391305
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.2173913
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.26086956
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.3043478
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.3478261
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.39130434
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.4347826
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.47826087
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.5217391
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.5652174
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.6086956
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.65217394
+Rehash feito novo tamanho: 23
+Fator de Carga: 0.65217394
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.6956522
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.73913044
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 99001122373
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.03448276
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.06896552
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.10344828
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.13793103
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.1724138
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.20689656
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.2413793
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.27586207
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.31034482
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.3448276
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.37931034
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.41379312
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.44827586
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.4827586
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.51724136
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.55172414
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.5862069
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.62068963
+Rehash feito novo tamanho: 29
+Fator de Carga: 0.62068963
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.6551724
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.6896552
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.7241379
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 33445566717
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.032258064
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.06451613
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.09677419
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.12903225
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.16129032
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.19354838
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.22580644
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.2580645
+Inserção - novo Bucket adicionado com chave: 29
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.29032257
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.32258064
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.3548387
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.38709676
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.41935483
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.4516129
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.48387095
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.516129
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.5483871
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.58064514
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.61290324
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.6451613
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.67741936
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.7096774
+Rehash feito novo tamanho: 31
+Fator de Carga: 0.7096774
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.7419355
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 55667788939
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.027027028
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.054054055
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.08108108
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.10810811
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.13513513
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.16216215
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.1891892
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.21621622
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.24324325
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.27027026
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.2972973
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.3243243
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.35135135
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.3783784
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.4054054
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.43243244
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.45945945
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.4864865
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.5135135
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.5405405
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.5675676
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.5945946
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.6216216
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.6486486
+Rehash feito novo tamanho: 37
+Fator de Carga: 0.6486486
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.6756757
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.7027027
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.7297297
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 99001122383
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.024390243
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.048780486
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.07317073
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.09756097
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.12195122
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.14634146
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.17073171
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.19512194
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.2195122
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.24390244
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.2682927
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.29268292
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.31707317
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.34146342
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.36585367
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.3902439
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.41463414
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.4390244
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.46341464
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.4878049
+Inserção - novo Bucket adicionado com chave: 36
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.5121951
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.5365854
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.5609756
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.58536583
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.6097561
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.63414633
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.6585366
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.68292683
+Rehash feito novo tamanho: 41
+Fator de Carga: 0.68292683
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.70731705
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.73170733
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 22334455716
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.023255814
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.046511628
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.069767445
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.093023255
+Inserção - novo Bucket adicionado com chave: 36
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.11627907
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.13953489
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.1627907
+Inserção - novo Bucket adicionado com chave: 41
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.18604651
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.20930232
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.23255815
+Inserção - novo Bucket adicionado com chave: 37
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.25581396
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.27906978
+Inserção - novo Bucket adicionado com chave: 38
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.30232558
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.3255814
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.3488372
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.37209302
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.39534885
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.41860464
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.44186047
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.4651163
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.4883721
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.5116279
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.53488374
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.55813956
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.5813953
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.60465115
+Inserção - novo Bucket adicionado com chave: 42
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.627907
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.6511628
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.6744186
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.6976744
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.7209302
+Rehash feito novo tamanho: 43
+Fator de Carga: 0.7209302
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.74418604
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 44556677938
+Inserção - novo Bucket adicionado com chave: 45
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.021276595
+Inserção - novo Bucket adicionado com chave: 44
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.04255319
+Inserção - novo Bucket adicionado com chave: 42
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.06382979
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.08510638
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.10638298
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.12765957
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.14893617
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.17021276
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.19148937
+Inserção - novo Bucket adicionado com chave: 38
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.21276596
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.23404256
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.25531915
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.27659574
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.29787233
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.31914893
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.34042552
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.3617021
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.38297874
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.40425533
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.42553192
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.44680852
+Inserção - novo Bucket adicionado com chave: 43
+Inserção - Valor adicionado com chave: 44556677938
+Fator de Carga: 0.4680851
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.4893617
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.5106383
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.5319149
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.5531915
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.5744681
+Inserção - novo Bucket adicionado com chave: 29
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.59574467
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.61702126
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.63829786
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.65957445
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.68085104
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.70212764
+Rehash feito novo tamanho: 47
+Fator de Carga: 0.70212764
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 55667788949
+Fator de Carga: 0.7234042
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 66778890050
+Fator de Carga: 0.7446808
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 11223344616
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.018867925
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.03773585
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.056603774
+Inserção - novo Bucket adicionado com chave: 38
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.0754717
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.094339624
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.11320755
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.13207547
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.1509434
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.16981132
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.18867925
+Inserção - novo Bucket adicionado com chave: 37
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.20754717
+Inserção - novo Bucket adicionado com chave: 44
+Inserção - Valor adicionado com chave: 11223344616
+Fator de Carga: 0.2264151
+Inserção - novo Bucket adicionado com chave: 52
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.24528302
+Inserção - novo Bucket adicionado com chave: 29
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.26415095
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.28301886
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.3018868
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.3207547
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.33962265
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.35849056
+Inserção - novo Bucket adicionado com chave: 50
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.3773585
+Inserção - novo Bucket adicionado com chave: 46
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.3962264
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.41509435
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.43396226
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.4528302
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.4716981
+Inserção - novo Bucket adicionado com chave: 51
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.49056605
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.509434
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.5283019
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 66778890050
+Fator de Carga: 0.5471698
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.5660377
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.5849057
+Inserção - novo Bucket adicionado com chave: 48
+Inserção - Valor adicionado com chave: 55667788949
+Fator de Carga: 0.6037736
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.6226415
+Inserção - novo Bucket adicionado com chave: 36
+Inserção - Valor adicionado com chave: 44556677938
+Fator de Carga: 0.6415094
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.6603774
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.6792453
+Rehash feito novo tamanho: 53
+Fator de Carga: 0.6792453
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 22334455727
+Fator de Carga: 0.6981132
+Inserção - novo Bucket adicionado com chave: 42
+Inserção - Valor adicionado com chave: 33445566738
+Fator de Carga: 0.7169811
+Inserção - novo Bucket adicionado com chave: 49
+Inserção - Valor adicionado com chave: 44556677949
+Fator de Carga: 0.7358491
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 55667788950
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.016949153
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.033898305
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.050847456
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.06779661
+Inserção - novo Bucket adicionado com chave: 37
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.084745765
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.10169491
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.118644066
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.13559322
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 66778890050
+Fator de Carga: 0.15254237
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.16949153
+Inserção - novo Bucket adicionado com chave: 51
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.18644068
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.20338982
+Inserção - novo Bucket adicionado com chave: 56
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.22033899
+Inserção - novo Bucket adicionado com chave: 43
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.23728813
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.2542373
+Inserção - novo Bucket adicionado com chave: 49
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.27118644
+Inserção - novo Bucket adicionado com chave: 47
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.2881356
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 55667788950
+Fator de Carga: 0.30508474
+Inserção - novo Bucket adicionado com chave: 41
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.3220339
+Inserção - novo Bucket adicionado com chave: 48
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.33898306
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.3559322
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.37288135
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.3898305
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.40677965
+Inserção - novo Bucket adicionado com chave: 54
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.42372882
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.44067797
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.45762712
+Inserção - novo Bucket adicionado com chave: 55
+Inserção - Valor adicionado com chave: 44556677938
+Fator de Carga: 0.47457626
+Inserção - novo Bucket adicionado com chave: 42
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.4915254
+Inserção - novo Bucket adicionado com chave: 44
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.5084746
+Inserção - novo Bucket adicionado com chave: 57
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.5254237
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 22334455727
+Fator de Carga: 0.5423729
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 33445566738
+Fator de Carga: 0.55932206
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 11223344616
+Fator de Carga: 0.5762712
+Inserção - novo Bucket adicionado com chave: 38
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.59322035
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 55667788949
+Fator de Carga: 0.6101695
+Inserção - novo Bucket adicionado com chave: 23
+Inserção - Valor adicionado com chave: 44556677949
+Fator de Carga: 0.62711865
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.6440678
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.66101694
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.6779661
+Rehash feito novo tamanho: 59
+Fator de Carga: 0.6779661
+Inserção - novo Bucket adicionado com chave: 50
+Inserção - Valor adicionado com chave: 66778890061
+Fator de Carga: 0.69491524
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 77889900172
+Fator de Carga: 0.7118644
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 88990011283
+Fator de Carga: 0.7288136
+Inserção - novo Bucket adicionado com chave: 45
+Inserção - Valor adicionado com chave: 99001122394
+Fator de Carga: 0.7457627
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 00112233505
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.016393442
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 11223344616
+Fator de Carga: 0.032786883
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.04918033
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.06557377
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.08196721
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.09836066
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 33445566738
+Fator de Carga: 0.114754096
+Inserção - novo Bucket adicionado com chave: 41
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.13114753
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 55667788949
+Fator de Carga: 0.14754099
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.16393442
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 66778890050
+Fator de Carga: 0.18032786
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.19672132
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.21311475
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 00112233505
+Fator de Carga: 0.22950819
+Inserção - novo Bucket adicionado com chave: 56
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.24590164
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.26229507
+Inserção - novo Bucket adicionado com chave: 47
+Inserção - Valor adicionado com chave: 44556677949
+Fator de Carga: 0.27868852
+Inserção - novo Bucket adicionado com chave: 29
+Inserção - Valor adicionado com chave: 88990011283
+Fator de Carga: 0.29508197
+Inserção - novo Bucket adicionado com chave: 49
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.3114754
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.32786885
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.3442623
+Inserção - novo Bucket adicionado com chave: 42
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.36065573
+Inserção - novo Bucket adicionado com chave: 50
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.37704918
+Inserção - novo Bucket adicionado com chave: 57
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.39344263
+Inserção - novo Bucket adicionado com chave: 58
+Inserção - Valor adicionado com chave: 55667788950
+Fator de Carga: 0.40983605
+Inserção - novo Bucket adicionado com chave: 52
+Inserção - Valor adicionado com chave: 22334455727
+Fator de Carga: 0.4262295
+Inserção - novo Bucket adicionado com chave: 54
+Inserção - Valor adicionado com chave: 77889900172
+Fator de Carga: 0.44262296
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.45901638
+Inserção - novo Bucket adicionado com chave: 59
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.47540984
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.4918033
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.5081967
+Inserção - novo Bucket adicionado com chave: 46
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.52459013
+Inserção - novo Bucket adicionado com chave: 48
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.5409836
+Inserção - novo Bucket adicionado com chave: 45
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.55737704
+Inserção - novo Bucket adicionado com chave: 43
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.57377046
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 99001122394
+Fator de Carga: 0.59016395
+Inserção - novo Bucket adicionado com chave: 44
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.60655737
+Inserção - novo Bucket adicionado com chave: 60
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.6229508
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.6393443
+Inserção - novo Bucket adicionado com chave: 51
+Inserção - Valor adicionado com chave: 66778890061
+Fator de Carga: 0.6557377
+Inserção - novo Bucket adicionado com chave: 53
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.6721311
+Inserção - novo Bucket adicionado com chave: 55
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.6885246
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 44556677938
+Fator de Carga: 0.704918
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.72131145
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.73770493
+Rehash feito novo tamanho: 61
+Fator de Carga: 0.73770493
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 11223344627
+Inserção - novo Bucket adicionado com chave: 13
+Inserção - Valor adicionado com chave: 11223344627
+Fator de Carga: 0.014925373
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.029850746
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.04477612
+Inserção - novo Bucket adicionado com chave: 36
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.05970149
+Inserção - novo Bucket adicionado com chave: 44
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.07462686
+Inserção - novo Bucket adicionado com chave: 48
+Inserção - Valor adicionado com chave: 11223344616
+Fator de Carga: 0.08955224
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 66778890050
+Fator de Carga: 0.104477614
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.11940298
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 33445566738
+Fator de Carga: 0.13432837
+Inserção - novo Bucket adicionado com chave: 42
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.14925373
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.1641791
+Inserção - novo Bucket adicionado com chave: 40
+Inserção - Valor adicionado com chave: 99001122394
+Fator de Carga: 0.17910448
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 44556677938
+Fator de Carga: 0.19402985
+Inserção - novo Bucket adicionado com chave: 20
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.20895523
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.2238806
+Inserção - novo Bucket adicionado com chave: 47
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.23880596
+Inserção - novo Bucket adicionado com chave: 19
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.25373134
+Inserção - novo Bucket adicionado com chave: 56
+Inserção - Valor adicionado com chave: 00112233505
+Fator de Carga: 0.26865673
+Inserção - novo Bucket adicionado com chave: 15
+Inserção - Valor adicionado com chave: 88990011283
+Fator de Carga: 0.2835821
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.29850745
+Inserção - novo Bucket adicionado com chave: 51
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.31343284
+Inserção - novo Bucket adicionado com chave: 52
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.3283582
+Inserção - novo Bucket adicionado com chave: 9
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.3432836
+Inserção - novo Bucket adicionado com chave: 43
+Inserção - Valor adicionado com chave: 55667788949
+Fator de Carga: 0.35820895
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.37313432
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.3880597
+Inserção - novo Bucket adicionado com chave: 8
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.40298507
+Inserção - novo Bucket adicionado com chave: 17
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.41791046
+Inserção - novo Bucket adicionado com chave: 58
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.43283582
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.4477612
+Inserção - novo Bucket adicionado com chave: 66
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.46268657
+Inserção - novo Bucket adicionado com chave: 10
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.47761193
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 44556677949
+Fator de Carga: 0.49253732
+Inserção - novo Bucket adicionado com chave: 12
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.5074627
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.52238804
+Inserção - novo Bucket adicionado com chave: 57
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.53731346
+Inserção - novo Bucket adicionado com chave: 54
+Inserção - Valor adicionado com chave: 66778890061
+Fator de Carga: 0.5522388
+Inserção - novo Bucket adicionado com chave: 53
+Inserção - Valor adicionado com chave: 22334455727
+Fator de Carga: 0.5671642
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.58208954
+Inserção - novo Bucket adicionado com chave: 49
+Inserção - Valor adicionado com chave: 77889900172
+Fator de Carga: 0.5970149
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.6119403
+Inserção - novo Bucket adicionado com chave: 29
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.6268657
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.64179105
+Inserção - novo Bucket adicionado com chave: 64
+Inserção - Valor adicionado com chave: 55667788950
+Fator de Carga: 0.6567164
+Inserção - novo Bucket adicionado com chave: 45
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.67164177
+Inserção - novo Bucket adicionado com chave: 50
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.6865672
+Rehash feito novo tamanho: 67
+Fator de Carga: 0.6865672
+Inserção - novo Bucket adicionado com chave: 18
+Inserção - Valor adicionado com chave: 22334455738
+Fator de Carga: 0.70149255
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 33445566749
+Fator de Carga: 0.7164179
+Inserção - novo Bucket adicionado com chave: 55
+Inserção - Valor adicionado com chave: 44556677950
+Fator de Carga: 0.73134327
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 55667788961
+Fator de Carga: 0.74626863
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 33445566727
+Inserção - novo Bucket adicionado com chave: 56
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.014084507
+Inserção - novo Bucket adicionado com chave: 24
+Inserção - Valor adicionado com chave: 86754648653
+Fator de Carga: 0.028169014
+Inserção - novo Bucket adicionado com chave: 35
+Inserção - Valor adicionado com chave: 00112233494
+Fator de Carga: 0.04225352
+Inserção - novo Bucket adicionado com chave: 3
+Inserção - Valor adicionado com chave: 44556677928
+Fator de Carga: 0.056338027
+Inserção - novo Bucket adicionado com chave: 60
+Inserção - Valor adicionado com chave: 11223344595
+Fator de Carga: 0.07042254
+Inserção - novo Bucket adicionado com chave: 21
+Inserção - Valor adicionado com chave: 41273043142
+Fator de Carga: 0.08450704
+Inserção - novo Bucket adicionado com chave: 58
+Inserção - Valor adicionado com chave: 37015653470
+Fator de Carga: 0.09859155
+Inserção - novo Bucket adicionado com chave: 11
+Inserção - Valor adicionado com chave: 44556677949
+Fator de Carga: 0.112676054
+Inserção - novo Bucket adicionado com chave: 25
+Inserção - Valor adicionado com chave: 99001122383
+Fator de Carga: 0.12676056
+Inserção - novo Bucket adicionado com chave: 5
+Inserção - Valor adicionado com chave: 17490275529
+Fator de Carga: 0.14084508
+Inserção - novo Bucket adicionado com chave: 59
+Inserção - Valor adicionado com chave: 42291792435
+Fator de Carga: 0.15492958
+Inserção - novo Bucket adicionado com chave: 14
+Inserção - Valor adicionado com chave: 55667788939
+Fator de Carga: 0.16901408
+Inserção - novo Bucket adicionado com chave: 6
+Inserção - Valor adicionado com chave: 99377619670
+Fator de Carga: 0.18309858
+Inserção - novo Bucket adicionado com chave: 26
+Inserção - Valor adicionado com chave: 11223344627
+Fator de Carga: 0.1971831
+Inserção - novo Bucket adicionado com chave: 61
+Inserção - Valor adicionado com chave: 77889900161
+Fator de Carga: 0.2112676
+Inserção - novo Bucket adicionado com chave: 27
+Inserção - Valor adicionado com chave: 88990011283
+Fator de Carga: 0.22535211
+Inserção - novo Bucket adicionado com chave: 51
+Inserção - Valor adicionado com chave: 68251958182
+Fator de Carga: 0.23943663
+Inserção - novo Bucket adicionado com chave: 32
+Inserção - Valor adicionado com chave: 11223344605
+Fator de Carga: 0.2535211
+Inserção - novo Bucket adicionado com chave: 0
+Inserção - Valor adicionado com chave: 22334455738
+Fator de Carga: 0.26760563
+Inserção - novo Bucket adicionado com chave: 36
+Inserção - Valor adicionado com chave: 88990011262
+Fator de Carga: 0.28169015
+Inserção - novo Bucket adicionado com chave: 7
+Inserção - Valor adicionado com chave: 22334455716
+Fator de Carga: 0.29577464
+Inserção - novo Bucket adicionado com chave: 63
+Inserção - Valor adicionado com chave: 33445566749
+Fator de Carga: 0.30985916
+Inserção - novo Bucket adicionado com chave: 33
+Inserção - Valor adicionado com chave: 66778890050
+Fator de Carga: 0.32394367
+Inserção - novo Bucket adicionado com chave: 28
+Inserção - Valor adicionado com chave: 78137159737
+Fator de Carga: 0.33802816
+Inserção - novo Bucket adicionado com chave: 55
+Inserção - Valor adicionado com chave: 63028263411
+Fator de Carga: 0.35211268
+Inserção - novo Bucket adicionado com chave: 29
+Inserção - Valor adicionado com chave: 77278088340
+Fator de Carga: 0.36619717
+Inserção - novo Bucket adicionado com chave: 16
+Inserção - Valor adicionado com chave: 33445566717
+Fator de Carga: 0.3802817
+Inserção - novo Bucket adicionado com chave: 30
+Inserção - Valor adicionado com chave: 55667788961
+Fator de Carga: 0.3943662
+Inserção - novo Bucket adicionado com chave: 66
+Inserção - Valor adicionado com chave: 00112233484
+Fator de Carga: 0.4084507
+Inserção - novo Bucket adicionado com chave: 31
+Inserção - Valor adicionado com chave: 33445566738
+Fator de Carga: 0.4225352
+Inserção - novo Bucket adicionado com chave: 34
+Inserção - Valor adicionado com chave: 94920688061
+Fator de Carga: 0.43661973
+Inserção - novo Bucket adicionado com chave: 43
+Inserção - Valor adicionado com chave: 44556677938
+Fator de Carga: 0.45070422
+Inserção - novo Bucket adicionado com chave: 57
+Inserção - Valor adicionado com chave: 99001122394
+Fator de Carga: 0.46478873
+Inserção - novo Bucket adicionado com chave: 69
+Inserção - Valor adicionado com chave: 00802227783
+Fator de Carga: 0.47887325
+Inserção - novo Bucket adicionado com chave: 45
+Inserção - Valor adicionado com chave: 55667788949
+Fator de Carga: 0.49295774
+Inserção - novo Bucket adicionado com chave: 64
+Inserção - Valor adicionado com chave: 99001122373
+Fator de Carga: 0.5070422
+Inserção - novo Bucket adicionado com chave: 22
+Inserção - Valor adicionado com chave: 77889900151
+Fator de Carga: 0.52112675
+Inserção - novo Bucket adicionado com chave: 50
+Inserção - Valor adicionado com chave: 49057996418
+Fator de Carga: 0.53521127
+Inserção - novo Bucket adicionado com chave: 65
+Inserção - Valor adicionado com chave: 11223344616
+Fator de Carga: 0.5492958
+Inserção - novo Bucket adicionado com chave: 37
+Inserção - Valor adicionado com chave: 77889900172
+Fator de Carga: 0.5633803
+Inserção - novo Bucket adicionado com chave: 67
+Inserção - Valor adicionado com chave: 88990011272
+Fator de Carga: 0.57746476
+Inserção - novo Bucket adicionado com chave: 52
+Inserção - Valor adicionado com chave: 28121169111
+Fator de Carga: 0.5915493
+Inserção - novo Bucket adicionado com chave: 41
+Inserção - Valor adicionado com chave: 23106736638
+Fator de Carga: 0.6056338
+Inserção - novo Bucket adicionado com chave: 39
+Inserção - Valor adicionado com chave: 22334455727
+Fator de Carga: 0.6197183
+Inserção - novo Bucket adicionado com chave: 68
+Inserção - Valor adicionado com chave: 66778890061
+Fator de Carga: 0.63380283
+Inserção - novo Bucket adicionado com chave: 62
+Inserção - Valor adicionado com chave: 44556677950
+Fator de Carga: 0.64788735
+Inserção - novo Bucket adicionado com chave: 70
+Inserção - Valor adicionado com chave: 00112233505
+Fator de Carga: 0.6619718
+Inserção - novo Bucket adicionado com chave: 47
+Inserção - Valor adicionado com chave: 22334455706
+Fator de Carga: 0.6760563
+Inserção - novo Bucket adicionado com chave: 2
+Inserção - Valor adicionado com chave: 66778890040
+Fator de Carga: 0.69014084
+Inserção - novo Bucket adicionado com chave: 1
+Inserção - Valor adicionado com chave: 55667788950
+Fator de Carga: 0.70422536
+Inserção - novo Bucket adicionado com chave: 4
+Inserção - Valor adicionado com chave: 33445566727
+Fator de Carga: 0.7183099
+Rehash feito novo tamanho: 71
+Fator de Carga: 0.7183099
+Remoção - Valor Removido com chave: 00112233505
+Fator de Carga: 0.70422536
+Remoção - Valor Removido com chave: 00802227783
+Fator de Carga: 0.69014084

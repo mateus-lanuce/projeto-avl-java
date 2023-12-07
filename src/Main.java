@@ -1,7 +1,5 @@
 import Cliente.Cliente;
 import common.Veiculo;
-import interfaces.Avl_Tree_interface;
-import servidor.Avl_Tree;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
